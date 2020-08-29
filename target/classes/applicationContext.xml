@@ -22,8 +22,8 @@
     </context:component-scan>
 
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
-        <property name="driverClass" value="org.sqlite.JDBC"/>
-        <property name="jdbcUrl" value="jdbc:sqlite:/Users/liubinwe/Desktop/Database/ssm.db"/>
+        <property name="driverClass" value="com.mysql.jdbc.Driver"/>
+        <property name="jdbcUrl" value="jdbc:mysql:///ssm"/>
         <property name="user" value="root"/>
         <property name="password" value="root"/>
     </bean>
